@@ -26,10 +26,10 @@ The conclusion stays similar after weighting songs by chart rank. The rank-weigh
 ## What this project demonstrates
 
 - A multi-source data pipeline joining Billboard charts, Spotify/iTunes genre metadata, and Genius lyrics.
-- Text cleaning that removes Genius page material while preserving capitalization and punctuation used by sentiment models.
+- Text cleaning that removes unnecessary Genius page material while preserving capitalization and punctuation used by sentiment models.
 - Auditable genre normalization: the source genre remains in the data, automated rules create broad categories, and corrections live in a separate override table.
 - Two-model NLP analysis with bootstrap intervals, rank-weighted sensitivity checks, and explicit model-agreement reporting.
-- Automated checks for missing ranks, duplicate keys, missing lyrics, missing genres, and suspicious lyric text.
+- Checks for missing ranks, duplicate keys, missing lyrics, missing genres, and suspicious lyric text.
 - A public derived dataset that does not expose full copyrighted song lyrics.
 
 ## Data pipeline
@@ -105,4 +105,4 @@ Genre summaries use a minimum of five songs before interpreting a genre-level me
 
 Chart pages: [1965](https://www.billboard.com/charts/hot-100/1965-08-28/), [1985](https://www.billboard.com/charts/hot-100/1985-08-24/), [2005](https://www.billboard.com/charts/hot-100/2005-08-27/), and [2025](https://www.billboard.com/charts/hot-100/2025-05-03/). Genre metadata came from Spotify and iTunes searches where available. Lyrics were retrieved from Genius for analysis.
 
-Full lyrics are excluded from version control. Only derived numerical features and limited metadata are intended for the public repository. The MIT license covers this project's code and original documentation, not third-party data or lyrics.
+Full lyrics are excluded from version control. Only derived numerical features and limited metadata are intended for the public repository.
