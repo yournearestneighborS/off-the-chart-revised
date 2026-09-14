@@ -1,0 +1,28 @@
+year,title,artist,corrected_genre,reason
+1965,All I Really Want To Do,Cher,Folk,Source returned an unrelated jazz profile; song reviewed manually.
+1965,Houston,Dean Martin,Country,Artist-level Christmas tag does not describe this song.
+1965,Laugh At Me,Sonny,Pop,Source returned an unrelated house/tech-house profile.
+1965,Moonlight And Roses (Bring Mem'ries Of You),Vic Dana,Pop,Source returned an unrelated hypertechno profile.
+1965,Colours,Donovan,Folk,Source returned a non-musical Fiction label.
+1985,St. Elmo's Fire (Man In Motion),John Parr,Rock,Source returned an unrelated French-jazz profile.
+1985,Freedom,Wham!,Pop,Artist-level Christmas tag does not describe this song.
+1985,If You Love Somebody Set Them Free,Sting,Rock,Source returned an unrelated Hindi hip-hop profile.
+1985,Fortress Around Your Heart,Sting,Rock,Source returned an unrelated Hindi hip-hop profile.
+1985,Love And Pride,King,Pop,Source returned an unrelated Hindi hip-hop profile.
+1985,Summertime Girls,Y&T,Rock,Source returned an unrelated rap profile.
+1985,Running Back,Urgent,Rock,Source returned an unrelated manele profile.
+1985,Your Love Is King,Sade,R&B/Soul,Source returned an unrelated mariachi profile.
+1985,Call Me,Go West,Pop,Source returned an unrelated Mexican hip-hop profile.
+1985,I Want My Girl,Jesse Johnson's Revue,R&B/Soul,Missing source genre; broad category reviewed manually.
+2005,We Belong Together,Mariah Carey,R&B/Soul,Artist-level Christmas tag does not describe this song.
+2005,Shake It Off,Mariah Carey,R&B/Soul,Artist-level Christmas tag does not describe this song.
+2005,Behind These Hazel Eyes,Kelly Clarkson,Pop,Artist-level Christmas tag does not describe this song.
+2005,Since U Been Gone,Kelly Clarkson,Pop,Artist-level Christmas tag does not describe this song.
+2005,Charlie Last Name: Wilson,Charlie Wilson,R&B/Soul,Source returned an unrelated drill profile.
+2025,APT.,ROSE & Bruno Mars,Pop,Source returned a non-musical Contemporary Romance label.
+2025,30 For 30,SZA With Kendrick Lamar,R&B/Soul,Source returned an unrelated Egyptian-music profile.
+2025,BMF,SZA,R&B/Soul,Source returned an unrelated Egyptian-music profile.
+2025,I Had Some Help,Post Malone Featuring Morgan Wallen,Country,Artist-level hip-hop tag does not describe this collaboration.
+2025,Hard Fought Hallelujah,Brandon Lake X Jelly Roll,Christian,Missing source genre; broad category reviewed manually.
+2025,Te Queria Ver,Aleman X Neton Vega,Latin,Missing source genre; broad category reviewed manually.
+

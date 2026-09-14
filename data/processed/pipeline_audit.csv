@@ -1,0 +1,5 @@
+year,chart_rows,unique_ranks,missing_chart_positions,duplicate_chart_keys,genre_rows_matched,genres_missing,lyrics_retrieved,lyrics_missing,lyric_coverage_pct
+1965,100,100,0,0,100,0,89,11,89.0
+1985,100,100,0,0,100,1,94,6,94.0
+2005,100,100,0,0,100,0,95,5,95.0
+2025,99,99,1,0,99,2,99,0,100.0

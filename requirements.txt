@@ -1,0 +1,2 @@
+# One-command environment for running the notebook and full pipeline.
+-e .[dev,nlp,acquisition]

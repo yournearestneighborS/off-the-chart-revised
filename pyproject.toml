@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "off-the-chart"
+version = "1.0.0"
+description = "A reproducible comparison of lyrics and genres in four Billboard Hot 100 chart weeks."
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = {text = "MIT"}
+authors = [{name = "Oluwaseyi Folorunso"}]
+dependencies = [
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pandas>=2.1,<3",
+  "seaborn>=0.13,<1",
+]
+
+[project.optional-dependencies]
+nlp = ["nltk>=3.9,<4", "textblob>=0.18,<1"]
+acquisition = [
+  "beautifulsoup4>=4.12,<5",
+  "lxml>=5,<7",
+  "lyricsgenius>=3.2,<4",
+  "requests>=2.31,<3",
+  "spotipy>=2.24,<3",
+]
+dev = ["ipykernel>=6.29,<8", "jupyterlab>=4.2,<5", "pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
